@@ -1,0 +1,99 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url(./img/fonfo.jpg);
+    background-size: cover;
+}
+
+
+main{
+    height: 900px;
+}
+
+.jumbotron{
+    background-image: url(./img/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.jumboTitl{
+    padding-top: 100px;
+}
+.navbar{
+  
+    font-size: 20px;
+    margin: 0px;
+    height: 80px;
+    box-shadow: 0px 2px 10px #383838;
+}
+
+.jumbotron2{
+    background-image: url(./img/pag2.jpg);
+    background-size:cover;
+}
+
+
+
+footer{
+   padding: 1px;
+    text-align: center;
+    width: 100%;
+      color:#BFBFB8;
+      background-color: #232625;
+  }
+
+
+  .formulario{
+    display:flex ;
+   justify-content: center;
+    padding-top: 50px;
+  }
+
+  .botonesDiv{
+    padding-top: 50px;
+  }
+
+  #imagen1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  #imagen2{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+  }
+
+
+  .listaDiv{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: aliceblue;
+    height: 500px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .encabezadoLista{
+    background-color: #232625;
+    color: aliceblue;
+    padding: 0;
+  }
+
+  .listaUl{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .listaUl,li{
+    list-style: none;
+  }
+
+  .botonF1{
+    display:flex ;
+    justify-content: center;
+  }
